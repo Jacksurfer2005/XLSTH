@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.22)  6 SEP 2025 16:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.22)  13 SEP 2025 21:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**d:/LATEX/XLSTH/main.tex
-(d:/LATEX/XLSTH/main.tex
+**d:/LATEX/XLSTH/cheatsheet.tex
+(d:/LATEX/XLSTH/cheatsheet.tex
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-12-11>
 (C:\Program Files\MiKTeX\tex/latex/base\article.cls
@@ -783,8 +783,8 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 40.
 File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count364
 \l__pdf_internal_box=\box129
-) (main.aux)
-\openout1 = `main.aux'.
+) (cheatsheet.aux)
+\openout1 = `cheatsheet.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
 LaTeX Font Info:    ... okay on input line 52.
@@ -867,12 +867,12 @@ Package caption Info: scrextend package is loaded.
 \caption@addmargin@linewidth=\dimen340
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 52.
- (main.out) (main.out)
+ (cheatsheet.out) (cheatsheet.out)
 \@outlinefile=\write5
-\openout5 = `main.out'.
+\openout5 = `cheatsheet.out'.
 
 \c@lstlisting=\count371
-<EE.png, id=74, 1458.44875pt x 1458.44875pt>
+<EE.png, id=6, 1458.44875pt x 1458.44875pt>
 File: EE.png Graphic file (type png)
 <use EE.png>
 Package pdftex.def Info: EE.png  used on input line 62.
@@ -885,220 +885,137 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
  (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<HCMUT.png, id=75, 416.5161pt x 424.4658pt>
+<HCMUT.png, id=7, 416.5161pt x 424.4658pt>
 File: HCMUT.png Graphic file (type png)
 <use HCMUT.png>
 Package pdftex.def Info: HCMUT.png  used on input line 63.
 (pdftex.def)             Requested size: 105.27359pt x 107.28201pt.
  [1
 
-{C:/Users/Admin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./EE.png (PNG copy)> <./HCMUT.png>] (main.toc)
+{C:/Users/Admin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./EE.png (PNG copy)> <./HCMUT.png>] (cheatsheet.toc)
 \tf@toc=\write6
-\openout6 = `main.toc'.
+\openout6 = `cheatsheet.toc'.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.79 \newpage
-              [1] (chap/chap1.tex
-<img/1.png, id=111, 3435.83624pt x 604.2575pt>
-File: img/1.png Graphic file (type png)
-<use img/1.png>
-Package pdftex.def Info: img/1.png  used on input line 6.
-(pdftex.def)             Requested size: 315.82881pt x 55.54257pt.
-<img/2.png, id=112, 929.72343pt x 445.665pt>
-File: img/2.png Graphic file (type png)
-<use img/2.png>
-Package pdftex.def Info: img/2.png  used on input line 22.
-(pdftex.def)             Requested size: 368.4616pt x 176.61717pt.
-<img/3.png, id=113, 1266.7325pt x 678.535pt>
+              [1]
+<img/3.png, id=24, 1266.7325pt x 678.535pt>
 File: img/3.png Graphic file (type png)
 <use img/3.png>
-Package pdftex.def Info: img/3.png  used on input line 31.
+Package pdftex.def Info: img/3.png  used on input line 85.
 (pdftex.def)             Requested size: 263.188pt x 140.97456pt.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 34.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 88.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 34.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 88.
 
+
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 99.
+
+<img/7.png, id=25, 314.17375pt x 178.6675pt>
+File: img/7.png Graphic file (type png)
+<use img/7.png>
+Package pdftex.def Info: img/7.png  used on input line 113.
+(pdftex.def)             Requested size: 157.9144pt x 89.80243pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 \end{equation*}
-                     [1 <./img/1.png (PNG copy)> <./img/2.png> <./img/3.png (PNG copy)>]
-
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 45.
-
-<img/5.png, id=126, 874.01532pt x 569.87906pt>
-File: img/5.png Graphic file (type png)
-<use img/5.png>
-Package pdftex.def Info: img/5.png  used on input line 49.
-(pdftex.def)             Requested size: 368.4616pt x 240.24321pt.
-<img/6.png, id=127, 866.48718pt x 546.54187pt>
-File: img/6.png Graphic file (type png)
-<use img/6.png>
-Package pdftex.def Info: img/6.png  used on input line 55.
-(pdftex.def)             Requested size: 368.4616pt x 232.40648pt.
-[2 <./img/5.png> <./img/6.png>]
-<img/7.png, id=141, 314.17375pt x 178.6675pt>
-File: img/7.png Graphic file (type png)
-<use img/7.png>
-Package pdftex.def Info: img/7.png  used on input line 70.
-(pdftex.def)             Requested size: 157.9144pt x 89.80243pt.
-<img/8.png, id=142, 520.94624pt x 212.795pt>
-File: img/8.png Graphic file (type png)
-<use img/8.png>
-Package pdftex.def Info: img/8.png  used on input line 76.
-(pdftex.def)             Requested size: 263.188pt x 107.50769pt.
-<img/9.png, id=143, 552.56438pt x 560.0925pt>
-File: img/9.png Graphic file (type png)
-<use img/9.png>
-Package pdftex.def Info: img/9.png  used on input line 85.
-(pdftex.def)             Requested size: 184.2348pt x 186.73692pt.
-<img/10.png, id=144, 661.47125pt x 255.95625pt>
-File: img/10.png Graphic file (type png)
-<use img/10.png>
-Package pdftex.def Info: img/10.png  used on input line 92.
-(pdftex.def)             Requested size: 315.82881pt x 122.20927pt.
- [3 <./img/7.png (PNG copy)> <./img/8.png (PNG copy)> <./img/9.png>]
-<img/11.png, id=154, 568.1225pt x 272.01625pt>
+l.130     \item \textbf
+                       {$\alpha_2 =A(2F)-A(F)$ (dB/octave)}: the increase in... [1 <./img/3.png (PNG copy)> <./img/7.png (PNG copy)>]
+<img/11.png, id=42, 568.1225pt x 272.01625pt>
 File: img/11.png Graphic file (type png)
 <use img/11.png>
-Package pdftex.def Info: img/11.png  used on input line 112.
+Package pdftex.def Info: img/11.png  used on input line 134.
 (pdftex.def)             Requested size: 263.188pt x 126.01723pt.
-<img/12.png, id=155, 521.69907pt x 287.57437pt>
-File: img/12.png Graphic file (type png)
-<use img/12.png>
-Package pdftex.def Info: img/12.png  used on input line 119.
-(pdftex.def)             Requested size: 315.82881pt x 174.09492pt.
-<img/13.png, id=156, 1889.0575pt x 574.145pt>
-File: img/13.png Graphic file (type png)
-<use img/13.png>
-Package pdftex.def Info: img/13.png  used on input line 123.
-(pdftex.def)             Requested size: 263.188pt x 79.98552pt.
-<img/14.png, id=157, 729.72626pt x 376.40625pt>
-File: img/14.png Graphic file (type png)
-<use img/14.png>
-Package pdftex.def Info: img/14.png  used on input line 127.
-(pdftex.def)             Requested size: 263.188pt x 135.75311pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[4 <./img/10.png (PNG copy)> <./img/11.png (PNG copy)>]
-<img/15.png, id=164, 551.05875pt x 161.60374pt>
-File: img/15.png Graphic file (type png)
-<use img/15.png>
-Package pdftex.def Info: img/15.png  used on input line 135.
-(pdftex.def)             Requested size: 263.188pt x 77.18423pt.
-<img/16.png, id=165, 690.58pt x 203.76125pt>
-File: img/16.png Graphic file (type png)
-<use img/16.png>
-Package pdftex.def Info: img/16.png  used on input line 140.
-(pdftex.def)             Requested size: 263.188pt x 77.65704pt.
-) [5 <./img/12.png> <./img/13.png (PNG copy)> <./img/14.png (PNG copy)> <./img/15.png (PNG copy)> <./img/16.png (PNG copy)>] (chap/chap2.tex
-<img/17.png, id=177, 1583.9175pt x 473.77pt>
+<img/17.png, id=43, 1583.9175pt x 473.77pt>
 File: img/17.png Graphic file (type png)
 <use img/17.png>
-Package pdftex.def Info: img/17.png  used on input line 5.
+Package pdftex.def Info: img/17.png  used on input line 141.
 (pdftex.def)             Requested size: 263.188pt x 78.71808pt.
-<img/18.png, id=178, 1343.0175pt x 633.36626pt>
+<img/18.png, id=44, 1343.0175pt x 633.36626pt>
 File: img/18.png Graphic file (type png)
 <use img/18.png>
-Package pdftex.def Info: img/18.png  used on input line 13.
+Package pdftex.def Info: img/18.png  used on input line 149.
 (pdftex.def)             Requested size: 263.188pt x 124.11961pt.
-<img/19.png, id=179, 347.2975pt x 161.60374pt>
+<img/19.png, id=45, 347.2975pt x 161.60374pt>
 File: img/19.png Graphic file (type png)
 <use img/19.png>
-Package pdftex.def Info: img/19.png  used on input line 30.
+Package pdftex.def Info: img/19.png  used on input line 166.
 (pdftex.def)             Requested size: 157.9144pt x 73.48296pt.
- [6 <./img/17.png (PNG copy)> <./img/18.png (PNG copy)> <./img/19.png (PNG copy)>]
-<img/20.png, id=188, 1326.9575pt x 507.8975pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2 <./img/11.png (PNG copy)> <./img/17.png (PNG copy)> <./img/18.png (PNG copy)>]
+<img/20.png, id=54, 1326.9575pt x 507.8975pt>
 File: img/20.png Graphic file (type png)
 <use img/20.png>
-Package pdftex.def Info: img/20.png  used on input line 48.
+Package pdftex.def Info: img/20.png  used on input line 182.
 (pdftex.def)             Requested size: 263.188pt x 100.73296pt.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 51.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 185.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 55.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 189.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 69.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 205.
 
-<img/21.png, id=189, 2561.57pt x 1011.78pt>
+<img/21.png, id=55, 2561.57pt x 1011.78pt>
 File: img/21.png Graphic file (type png)
 <use img/21.png>
-Package pdftex.def Info: img/21.png  used on input line 72.
+Package pdftex.def Info: img/21.png  used on input line 208.
 (pdftex.def)             Requested size: 263.188pt x 103.94742pt.
-[7 <./img/20.png (PNG copy)> <./img/21.png (PNG copy)>]
-<img/22.png, id=196, 4412.485pt x 1581.91pt>
-File: img/22.png Graphic file (type png)
-<use img/22.png>
-Package pdftex.def Info: img/22.png  used on input line 79.
-(pdftex.def)             Requested size: 263.188pt x 94.33119pt.
-<img/24.png, id=197, 641.39626pt x 379.4175pt>
-File: img/24.png Graphic file (type png)
-<use img/24.png>
-Package pdftex.def Info: img/24.png  used on input line 88.
-(pdftex.def)             Requested size: 263.188pt x 155.68954pt.
-<img/25.png, id=198, 1192.455pt x 292.84406pt>
-File: img/25.png Graphic file (type png)
-<use img/25.png>
-Package pdftex.def Info: img/25.png  used on input line 93.
-(pdftex.def)             Requested size: 263.188pt x 64.63144pt.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 104.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 104.
-
-<img/26.png, id=199, 925.20656pt x 162.6075pt>
-File: img/26.png Graphic file (type png)
-<use img/26.png>
-Package pdftex.def Info: img/26.png  used on input line 107.
-(pdftex.def)             Requested size: 263.188pt x 46.25677pt.
-<img/27.png, id=200, 917.67844pt x 261.22594pt>
-File: img/27.png Graphic file (type png)
-<use img/27.png>
-Package pdftex.def Info: img/27.png  used on input line 113.
-(pdftex.def)             Requested size: 263.188pt x 74.9205pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [8 <./img/22.png (PNG copy)> <./img/24.png> <./img/25.png> <./img/26.png>] [9 <./img/27.png>] (main.aux)
+[3 <./img/19.png (PNG copy)> <./img/20.png (PNG copy)>]
+<img/22.png, id=63, 4412.485pt x 1581.91pt>
+File: img/22.png Graphic file (type png)
+<use img/22.png>
+Package pdftex.def Info: img/22.png  used on input line 215.
+(pdftex.def)             Requested size: 263.188pt x 94.33119pt.
+<img/23.png, id=64, 912.40875pt x 569.12625pt>
+File: img/23.png Graphic file (type png)
+<use img/23.png>
+Package pdftex.def Info: img/23.png  used on input line 223.
+(pdftex.def)             Requested size: 263.188pt x 164.16528pt.
+<img/28.png, id=65, 2982.14125pt x 2486.28876pt>
+File: img/28.png Graphic file (type png)
+<use img/28.png>
+Package pdftex.def Info: img/28.png  used on input line 227.
+(pdftex.def)             Requested size: 263.188pt x 219.39351pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4 <./img/21.png (PNG copy)> <./img/22.png (PNG copy)> <./img/23.png>] [5 <./img/28.png (PNG copy)>] (cheatsheet.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-12-11>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C07A16DB89FAAFCED691C6B58D58DE58;2948.
+Package rerunfilecheck Info: File `cheatsheet.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30405 strings out of 474495
- 569883 string characters out of 5753749
+ 30202 strings out of 474495
+ 567183 string characters out of 5753749
  1937460 words of memory out of 5000000
- 52097 multiletter control sequences out of 15000+600000
- 572475 words of font info for 68 fonts, out of 8000000 for 9000
+ 51965 multiletter control sequences out of 15000+600000
+ 572388 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,12n,107p,419b,548s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1095.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (11 pages, 2533300 bytes).
+ 108i,12n,107p,425b,564s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1095.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on cheatsheet.pdf (7 pages, 2043948 bytes).
 PDF statistics:
- 620 PDF objects out of 1000 (max. 8388607)
- 53 named destinations out of 1000 (max. 500000)
- 284 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 400 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 500000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
