@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.22)  13 SEP 2025 21:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.22)  17 SEP 2025 21:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -972,7 +972,7 @@ LaTeX Warning: Command \textellipsis invalid in math mode on input line 205.
 File: img/21.png Graphic file (type png)
 <use img/21.png>
 Package pdftex.def Info: img/21.png  used on input line 208.
-(pdftex.def)             Requested size: 263.188pt x 103.94742pt.
+(pdftex.def)             Requested size: 210.54718pt x 83.15175pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -992,11 +992,55 @@ File: img/28.png Graphic file (type png)
 <use img/28.png>
 Package pdftex.def Info: img/28.png  used on input line 227.
 (pdftex.def)             Requested size: 263.188pt x 219.39351pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[4 <./img/21.png (PNG copy)> <./img/22.png (PNG copy)> <./img/23.png>] [5 <./img/28.png (PNG copy)>] (cheatsheet.aux)
+ [4 <./img/21.png (PNG copy)> <./img/22.png (PNG copy)> <./img/23.png> <./img/28.png (PNG copy)>]
+<img/29.png, id=75, 463.7325pt x 114.4275pt>
+File: img/29.png Graphic file (type png)
+<use img/29.png>
+Package pdftex.def Info: img/29.png  used on input line 247.
+(pdftex.def)             Requested size: 210.54718pt x 51.95459pt.
+<img/30.png, id=76, 840.89156pt x 530.73282pt>
+File: img/30.png Graphic file (type png)
+<use img/30.png>
+Package pdftex.def Info: img/30.png  used on input line 264.
+(pdftex.def)             Requested size: 263.188pt x 166.11273pt.
+<img/31.png, id=77, 901.3675pt x 257.96375pt>
+File: img/31.png Graphic file (type png)
+<use img/31.png>
+Package pdftex.def Info: img/31.png  used on input line 273.
+(pdftex.def)             Requested size: 315.82881pt x 90.38705pt.
+ [5 <./img/29.png (PNG copy)> <./img/30.png> <./img/31.png (PNG copy)>]
+<img/32.png, id=87, 407.5225pt x 200.75pt>
+File: img/32.png Graphic file (type png)
+<use img/32.png>
+Package pdftex.def Info: img/32.png  used on input line 282.
+(pdftex.def)             Requested size: 263.188pt x 129.6558pt.
+<img/33.png, id=88, 853.1875pt x 152.57pt>
+File: img/33.png Graphic file (type png)
+<use img/33.png>
+Package pdftex.def Info: img/33.png  used on input line 293.
+(pdftex.def)             Requested size: 263.188pt x 47.06573pt.
+<img/34.png, id=89, 818.05624pt x 363.3575pt>
+File: img/34.png Graphic file (type png)
+<use img/34.png>
+Package pdftex.def Info: img/34.png  used on input line 298.
+(pdftex.def)             Requested size: 263.188pt x 116.90327pt.
+<img/35.png, id=90, 299.1175pt x 122.4575pt>
+File: img/35.png Graphic file (type png)
+<use img/35.png>
+Package pdftex.def Info: img/35.png  used on input line 305.
+(pdftex.def)             Requested size: 157.9144pt x 64.6499pt.
+ [6 <./img/32.png (PNG copy)> <./img/33.png (PNG copy)> <./img/34.png (PNG copy)> <./img/35.png (PNG copy)>]
+<img/36.png, id=99, 268.00125pt x 121.45375pt>
+File: img/36.png Graphic file (type png)
+<use img/36.png>
+Package pdftex.def Info: img/36.png  used on input line 317.
+(pdftex.def)             Requested size: 157.9144pt x 71.56256pt.
+<img/37.png, id=100, 821.0675pt x 203.76125pt>
+File: img/37.png Graphic file (type png)
+<use img/37.png>
+Package pdftex.def Info: img/37.png  used on input line 327.
+(pdftex.def)             Requested size: 263.188pt x 65.31374pt.
+ [7 <./img/36.png (PNG copy)> <./img/37.png (PNG copy)>] (cheatsheet.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-12-11>
@@ -1005,17 +1049,17 @@ Package rerunfilecheck Info: File `cheatsheet.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30202 strings out of 474495
- 567183 string characters out of 5753749
+ 30280 strings out of 474495
+ 568522 string characters out of 5753749
  1937460 words of memory out of 5000000
- 51965 multiletter control sequences out of 15000+600000
+ 52032 multiletter control sequences out of 15000+600000
  572388 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,12n,107p,425b,564s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1095.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on cheatsheet.pdf (7 pages, 2043948 bytes).
+Output written on cheatsheet.pdf (9 pages, 2207699 bytes).
 PDF statistics:
- 400 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 448 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
+ 123 words of extra memory for PDF output out of 10000 (max. 10000000)
 

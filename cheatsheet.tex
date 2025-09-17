@@ -205,7 +205,7 @@ For unipolar signal, $x_Q \in [0, R)$; for bipolar $x_Q \in [-R/2, R/2)$.
 A/D converters quantize an analog value x so that is is represented by B bits  $b=[b_1, b_2,…,b_B]$
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.5\linewidth]{img/21.png}
+    \includegraphics[width=0.4\linewidth]{img/21.png}
     \caption{B-bit A/D converter}
 \end{figure}
 \newpage
@@ -227,6 +227,110 @@ After B tests, the \textbf{successive approximation register (SAR)} will hold th
     \includegraphics[width=0.5\linewidth]{img/28.png}
     \caption{Converter codes for B = 4 bits, R = 10 volts}
 \end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% CHAPTER 3
+Unit sample sequence (unit impulse): $\displaystyle \delta(n) \begin{cases}
+    1 \quad for\ n=0 \\
+    0 \quad for\ n\neq 0
+\end{cases} $
+
+Unit step signal: $\displaystyle \delta(n) \begin{cases}
+    1 \quad for\ n\geq 0 \\
+    0 \quad for\ n< 0
+\end{cases} $
+
+\textbf{\textit{Input/output rules}}.
+
+A discrete-time system is a processor that transform an input sequence $x(n)$ into an output sequence $y(n)$.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.4\linewidth]{img/29.png}
+    \caption{Discrete-time system}
+\end{figure}\\
+Sample-by-sample processing: $\{x_0,x_1,x_2,...,x_n\} \xrightarrow{H} \{y_0,y_1,y_2,...,y_n\}$ that is, $x_0 \xrightarrow{H}y_0, \ x_1 \xrightarrow{H} y_1,...$ and so on.\\
+Block processing: $x = \begin{bmatrix}
+    x_0 \\
+    x_1 \\ 
+    x_2 \\
+    \vdots 
+\end{bmatrix} \xrightarrow{H} \begin{bmatrix}
+    y_0 \\
+    y_1 \\ 
+    y_2 \\
+    \vdots 
+\end{bmatrix}=y$\\
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/30.png}
+    \caption{Basic building blocks of DSP systems}
+\end{figure}
+
+\textbf{\textit{Linearity and time invariance}}
+
+A \textbf{linear system} has the property that the output signal due to a linear combination of two input signals can be obtained by forming the same linear combination of the individual outputs.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\linewidth]{img/31.png}
+    \caption{Testing linearity}
+\end{figure}
+
+If $x(n)=a_1x_1(n)+a_2x_2(n) \to y(n)=a_1y_1(n)+a_2y_2(n) \ \forall a_1,a_2 \to$ linear system. Otherwise, the system is nonlinear.
+\newpage
+A \textbf{time-invariant system} is a system that its input-output characteristics do not change with time.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/32.png}
+    \caption{Testing time invariance}
+\end{figure}
+
+If $y_D(n)=y(n-D) \ \forall D \to$ time-invariant system. Otherwise, the system is time-variant.
+
+\textbf{\textit{Impulse repsonse}}
+
+\textbf{Linear time-invariant (LTI) systems} are characterized uniquely by their impulse response sequence $h(n)$, which is defined as the response of the systems to a unit impulse $\delta(n)$.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/33.png}
+    \caption{Impulse response of an LTI system}
+\end{figure}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/34.png}
+    \caption{Delayed impulse response of an LTI system}
+\end{figure}
+
+A \textbf{finite impulse response (FIR) filter} has impulse response $h(n)$ that extend only over a finite time interval, say $0 \leq n \leq M$.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.3\linewidth]{img/35.png}
+    \caption{FIR impulse response}
+\end{figure}
+\begin{itemize}
+    \item $M$: filter order; $L_h=M+1$: the length of impulse response.
+    \item $h=\{h_0,\ h_1,\ ...,\ h_M\}$ is referred by varius name such as filter coefficients, filter weights or filter taps.
+    \item FIR filtering equation: $y(n) = \displaystyle\sum_{m=0}^{M}h(m)x(n-m)=h(n)*x(n) $
+\end{itemize}
+\newpage
+A \textbf{infinite impulse response (IIR) filter} has impulse response $h(n)$ of infinite duration, say $0\leq n \leq\infty$.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.3\linewidth]{img/36.png}
+    \caption{IIR impulse response}
+\end{figure}
+
+IIR filtering equation: $y(n) = \displaystyle\sum_{m=0}^{M}h(m)x(n-m)=h(n)*x(n) $. The I/O equation of IIR filters are expressed as the recursive differences equation.
+
+\textit{\textbf{Causality and Stability}}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/37.png}
+    \caption{Causal, Anticasual and Mixed signals}
+\end{figure}
+
+LTI systems can also classified in terms of causality depending on whether $h(n)$ is casual, anticausal or mixed. A system is stable (BIBO) if \textbf{bounded inputs} ($|x(n)| \leq A$) always generate \textbf{bounded outputs} ($|y(n)| \leq B$).
+
+A LTI system is stable $\Leftrightarrow \displaystyle \sum_{n=-\infty}^{\infty} (h(n))<\infty$
 
 
 \end{document}
